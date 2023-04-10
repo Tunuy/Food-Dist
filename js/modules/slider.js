@@ -9,7 +9,7 @@ current = document.querySelector(currentCountr),
 slidesWrapper = document.querySelector(wrapper),
 slidesField = document.querySelector(field),
 width = window.getComputedStyle(slidesWrapper).width;       
-let slideIndex = 1;
+let slideIndex = 1; 
 let offset = 0;
 
 if(slides.length < 10){
